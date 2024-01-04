@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+}
+
+body{
+    background-image: url(images/background.jpg);
+    background-repeat: no-repeat;
+    
+}
+
+header{
+    display: flex;
+    padding-top: 50px;
+    padding-left: 100px;
+    gap: 20px;
+}
+
+/*Header*/
+
+img {
+    height: 40px;
+    width: 40px;
+}
+.download {
+    padding-left: 40px;
+}
+.addon {
+    padding-left: 40px;
+
+}
+.forum {
+    padding-left: 40px;
+}
+.help {
+    padding-left: 40px;
+}
+
+.login {
+    padding-left: 500px;
+}
+
+
+a {
+    color: white;
+    text-decoration: none; 
+}
+
+.signup{
+    padding-left: 40px;
+
+}
+
+/*Banner*/
+
+.text{
+    font-family: "Roboto", "Segoe UI", "sans-seri";
+    color: white;
+    font-size:18px;
+}
+
+.text1{
+
+    color: white;
+    font-weight: bolder;
+}
+
+.container{
+    padding-top: 100px;
+    padding-left: 130px;
+    display: flex;
+}
+
+.p1{
+    color: #301717;
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+.p2{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight:bolder;
+}
+
+.container1{
+    padding-top: 30px;
+    display: flex;
+    gap: 50px;
+}
+
+button{
+    height: 30px;
+    width: 90px;
+    border-radius: 5px;
+    border-color: white;
+    font-size: large;
+    font-family: "Roboto", "Segoe UI", "sans-seri";
+    color: #000;
+}
+
+
+
+button {
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    font-weight: 700;
+    border-radius: 0.2vw;
+    margin-right: 1rem;
+    background-color: rgba(225, 170, 68, 0.616);
+}
+button:hover {
+    color: #000;
+    background-color: rgb(62, 38, 38);
+    transition: all 0.2s;
+}
+
+
